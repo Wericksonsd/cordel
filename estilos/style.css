@@ -22,14 +22,14 @@ header h1{
     padding-top: 50px;
     text-align: center;
     font-variant: small-caps;
-    font-size: 6vw;
+    font-size: 10vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header p{
     text-align: center;
     padding-bottom: 50px;
-    font-size: 1vw;
+    font-size: 3vw;
 }
 
 a {
@@ -49,13 +49,14 @@ a:hover{
 section{
     padding: 10vh 0;    
     padding-left: 30px;   
-    background-color: aliceblue;
+    background-color: rgb(209, 209, 209);
 }
 
 section p{
     line-height: 2em;
-    font-size: 2vw;    
+    font-size: 6vw;    
     font-family: 'Dancing Script', cursive;
+    padding-bottom: 12px;
 }
 
 section.normal{
@@ -64,10 +65,14 @@ section.normal{
 
 section.imagem{
     background-color: #131313;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.336);
 }
 
 section.imagem > p{
-    background-color: #131313;
+    background-color: #131313a8;
     border-radius: 5px;
     color: aliceblue;
     display: inline-block;
@@ -75,7 +80,13 @@ section.imagem > p{
     margin-left: -15px;
 }
 
+#img01{
+    background-image: url('../imagens/background001.jpg');
+}
 
+#img02{
+    background-image: url('../imagens/background002.jpg');
+}
 
 footer{
     background-color: #131313;
