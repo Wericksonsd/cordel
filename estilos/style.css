@@ -1,1 +1,88 @@
 @charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #131313;
+}
+
+header{
+    background-color: #131313;
+    color: aliceblue;
+}
+
+header h1{
+    padding-top: 50px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header p{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 0 2px;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+a:hover{
+    background-color: aliceblue;
+    color: #131313;
+}
+
+section{
+    padding: 10vh 0;    
+    padding-left: 30px;   
+    background-color: aliceblue;
+}
+
+section p{
+    line-height: 2em;
+    font-size: 2vw;    
+    font-family: 'Dancing Script', cursive;
+}
+
+section.normal{
+    color: #131313;
+}
+
+section.imagem{
+    background-color: #131313;
+}
+
+section.imagem > p{
+    background-color: #131313;
+    border-radius: 5px;
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+    margin-left: -15px;
+}
+
+
+
+footer{
+    background-color: #131313;
+    color: aliceblue;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+}
